@@ -1,4 +1,4 @@
-package model;
+package edu.ctec.stateactivity.model;
 
 import android.app.Application;
 
@@ -12,6 +12,7 @@ public class AndroidSaveState extends Application
     private int age;
 
     public AndroidSaveState()
+
     {
         this.userName = "default";
         this.isTired = false;
