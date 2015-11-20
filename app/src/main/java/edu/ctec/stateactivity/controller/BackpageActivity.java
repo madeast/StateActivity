@@ -15,7 +15,7 @@ import edu.ctec.stateactivity.R;
  */
 public class BackpageActivity extends ActionBarActivity
 {
-    private AndroidSaveState saveState;
+        private AndroidSaveState saveState;
         private Button backButton;
         private TextView userText;
 

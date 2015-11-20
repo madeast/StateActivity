@@ -28,9 +28,7 @@ public class FrontActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_front);
-
         saveState = (AndroidSaveState)getApplication();
-
         sendToOtherScreenButton = (Button) findViewById(R.id.submitButton);
         nameText = (EditText) findViewById(R.id.nameText);
         numberText = (EditText) findViewById(R.id.numberText);
